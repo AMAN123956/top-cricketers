@@ -1,5 +1,4 @@
 import React from "react";
-import collection from "../collection";
 import {Table}  from "react-bootstrap";
 function Card(props) {
     return(
