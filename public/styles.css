@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background:blue;
+}
+.index{
+    color:red;
+    
+    
+}
+.heading{
+    font-size:2.5rem;
+    text-align:center;
+}
+.card{
+    display:flex;
+    width:100%;
+    margin-top:10px;
+    
+    
+}
+.card-detail{
+    background-color:gray;
+}
+
+.info{
+    color:gray;
+}
+.name{
+    color:yellow;
+}
+.profileImg{
+    border-radius:20px;
+    width:200px;
+}
+.btn{
+    position: absolute;
+    top:87%;
+    left:92%;
+}
+
+
+@media screen and (max-width:500px){
+    .heading{
+        font-size: 1.2rem;
+    }
+    .btn{
+        left:57%;
+    }
+}
